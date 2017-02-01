@@ -84,7 +84,6 @@ void ActiveLabel::mouseReleaseEvent(QMouseEvent * event)
 {
     emit clicked();
 }
-qApp->setStyleSheet("QMainWindow { background-color: rgb(22, 140, 255); }");
 
 BitcoinGUI::BitcoinGUI(QWidget *parent):
     QMainWindow(parent),
