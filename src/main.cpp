@@ -975,13 +975,13 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees, uint256 prevHash)
     int64_t nSubsidy = 0;                                                                                 
     if (nHeight == 7)
     {
-        nSubsidy = 2000000 * COIN;
+        nSubsidy = 1000000 * COIN; //for community
     }
     else if (nHeight <= LAST_POW_BLOCK)
     {
         if(nHeight > 7)
         {
-        nSubsidy = 15.74 * COIN;
+        nSubsidy = 150 * COIN;
         }
     }
 
